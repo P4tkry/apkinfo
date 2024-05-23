@@ -1,0 +1,1063 @@
+{
+  "_declaration": {
+    "_attributes": {
+      "version": "1.0",
+      "encoding": "utf-8",
+      "standalone": "no"
+    }
+  },
+  "manifest": {
+    "_attributes": {
+      "xmlns:android": "http://schemas.android.com/apk/res/android",
+      "android:compileSdkVersion": "33",
+      "android:compileSdkVersionCodename": "13",
+      "package": "pl.edu.vulcan.hebe",
+      "platformBuildVersionCode": "33",
+      "platformBuildVersionName": "13"
+    },
+    "queries": {
+      "intent": {
+        "action": {
+          "_attributes": {
+            "android:name": "android.intent.action.SENDTO"
+          }
+        },
+        "data": {
+          "_attributes": {
+            "android:scheme": "mailto"
+          }
+        }
+      }
+    },
+    "uses-permission": [
+      {
+        "_attributes": {
+          "android:name": "android.permission.WRITE_EXTERNAL_STORAGE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.INTERNET"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.WAKE_LOCK"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.ACCESS_NETWORK_STATE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.POST_NOTIFICATIONS"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.RECEIVE_BOOT_COMPLETED"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.VIBRATE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.USE_FULL_SCREEN_INTENT"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.SCHEDULE_EXACT_ALARM"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.google.android.c2dm.permission.RECEIVE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.google.android.gms.permission.AD_ID"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.FOREGROUND_SERVICE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "pl.edu.vulcan.hebe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.CAMERA"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.sec.android.provider.badge.permission.READ"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.sec.android.provider.badge.permission.WRITE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.htc.launcher.permission.READ_SETTINGS"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.htc.launcher.permission.UPDATE_SHORTCUT"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.sonyericsson.home.permission.BROADCAST_BADGE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.anddoes.launcher.permission.UPDATE_COUNT"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.majeur.launcher.permission.UPDATE_BADGE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.huawei.android.launcher.permission.CHANGE_BADGE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.huawei.android.launcher.permission.READ_SETTINGS"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.huawei.android.launcher.permission.WRITE_SETTINGS"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.permission.READ_APP_BADGE"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.oppo.launcher.permission.READ_SETTINGS"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "com.oppo.launcher.permission.WRITE_SETTINGS"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "me.everything.badger.permission.BADGE_COUNT_READ"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "me.everything.badger.permission.BADGE_COUNT_WRITE"
+        }
+      }
+    ],
+    "permission": {
+      "_attributes": {
+        "android:name": "pl.edu.vulcan.hebe.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+        "android:protectionLevel": "signature"
+      }
+    },
+    "uses-feature": [
+      {
+        "_attributes": {
+          "android:name": "android.hardware.camera",
+          "android:required": "false"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.hardware.camera.front",
+          "android:required": "false"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.hardware.camera.autofocus",
+          "android:required": "false"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.hardware.camera.flash",
+          "android:required": "false"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.hardware.screen.landscape",
+          "android:required": "false"
+        }
+      },
+      {
+        "_attributes": {
+          "android:name": "android.hardware.wifi",
+          "android:required": "false"
+        }
+      }
+    ],
+    "application": {
+      "_attributes": {
+        "android:allowBackup": "false",
+        "android:appComponentFactory": "androidx.core.app.CoreComponentFactory",
+        "android:icon": "@mipmap/ic_launcher",
+        "android:label": "Dzienniczek VULCAN",
+        "android:name": "pl.edu.vulcan.vulcan_flutter.MainApplication",
+        "android:roundIcon": "@mipmap/ic_launcher_round",
+        "android:usesCleartextTraffic": "true"
+      },
+      "service": [
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "com.dexterous.flutterlocalnotifications.ForegroundService",
+            "android:stopWithTask": "false"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.MessagesRemoteViewsService",
+            "android:permission": "android.permission.BIND_REMOTEVIEWS"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.LessonPlanRemoteViewsService",
+            "android:permission": "android.permission.BIND_REMOTEVIEWS"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.NotificationsRemoteViewsService",
+            "android:permission": "android.permission.BIND_REMOTEVIEWS"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService",
+            "android:permission": "android.permission.BIND_JOB_SERVICE"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "com.google.firebase.MESSAGING_EVENT"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "true",
+            "android:exported": "false",
+            "android:name": "com.google.firebase.components.ComponentDiscoveryService"
+          },
+          "meta-data": [
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.iid.Registrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar",
+                "android:value": "com.google.firebase.components.ComponentRegistrar"
+              }
+            }
+          ]
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "true",
+            "android:exported": "false",
+            "android:name": "com.google.firebase.messaging.FirebaseMessagingService"
+          },
+          "intent-filter": {
+            "_attributes": {
+              "android:priority": "-500"
+            },
+            "action": {
+              "_attributes": {
+                "android:name": "com.google.firebase.MESSAGING_EVENT"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:enabled": "true",
+            "android:exported": "false",
+            "android:name": "com.google.android.gms.measurement.AppMeasurementService"
+          }
+        },
+        {
+          "_attributes": {
+            "android:enabled": "true",
+            "android:exported": "false",
+            "android:name": "com.google.android.gms.measurement.AppMeasurementJobService",
+            "android:permission": "android.permission.BIND_JOB_SERVICE"
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "@bool/enable_system_alarm_service_default",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.background.systemalarm.SystemAlarmService"
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "@bool/enable_system_job_service_default",
+            "android:exported": "true",
+            "android:name": "androidx.work.impl.background.systemjob.SystemJobService",
+            "android:permission": "android.permission.BIND_JOB_SERVICE"
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "@bool/enable_system_foreground_service_default",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.foreground.SystemForegroundService"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+          },
+          "meta-data": {
+            "_attributes": {
+              "android:name": "backend:com.google.android.datatransport.cct.CctBackendFactory",
+              "android:value": "cct"
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService",
+            "android:permission": "android.permission.BIND_JOB_SERVICE"
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "true",
+            "android:exported": "false",
+            "android:name": "androidx.room.MultiInstanceInvalidationService"
+          }
+        }
+      ],
+      "meta-data": [
+        {
+          "_attributes": {
+            "android:name": "flutterEmbedding",
+            "android:value": "2"
+          }
+        },
+        {
+          "_attributes": {
+            "android:name": "com.google.firebase.messaging.default_notification_channel_id",
+            "android:value": "vulcan_hebe_channel"
+          }
+        },
+        {
+          "_attributes": {
+            "android:name": "io.fabric.ApiKey",
+            "android:value": "a15045fede1a27e000a039a785268b8a7e6b629c"
+          }
+        },
+        {
+          "_attributes": {
+            "android:name": "com.google.android.gms.version",
+            "android:value": "@integer/google_play_services_version"
+          }
+        },
+        {
+          "_attributes": {
+            "android:name": "com.huawei.hms.client.appid",
+            "android:value": "appid=102933709"
+          }
+        }
+      ],
+      "activity": [
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "com.yalantis.ucrop.UCropActivity",
+            "android:screenOrientation": "portrait",
+            "android:theme": "@style/Theme.AppCompat.Light.NoActionBar"
+          }
+        },
+        {
+          "_attributes": {
+            "android:configChanges": "density|fontScale|keyboard|keyboardHidden|layoutDirection|locale|orientation|screenLayout|screenSize|uiMode",
+            "android:exported": "true",
+            "android:hardwareAccelerated": "true",
+            "android:launchMode": "singleTop",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.MainActivity",
+            "android:theme": "@style/Theme.AppCompat.DayNight.NoActionBar",
+            "android:windowSoftInputMode": "adjustResize"
+          },
+          "meta-data": {
+            "_attributes": {
+              "android:name": "io.flutter.app.android.SplashScreenUntilFirstFrame",
+              "android:value": "false"
+            }
+          },
+          "intent-filter": [
+            {
+              "action": {
+                "_attributes": {
+                  "android:name": "android.intent.action.MAIN"
+                }
+              },
+              "category": {
+                "_attributes": {
+                  "android:name": "android.intent.category.LAUNCHER"
+                }
+              }
+            },
+            {
+              "action": {
+                "_attributes": {
+                  "android:name": "FLUTTER_NOTIFICATION_CLICK"
+                }
+              },
+              "category": {
+                "_attributes": {
+                  "android:name": "android.intent.category.DEFAULT"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.SelectorActivity",
+            "android:theme": "@style/Theme.Transparent"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.appwidget.action.APPWIDGET_CONFIGURE"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.MessagesWidgetSelectorActivity",
+            "android:theme": "@style/Theme.Transparent"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.appwidget.action.APPWIDGET_CONFIGURE"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.LessonPlanWidgetSelectorActivity",
+            "android:theme": "@style/Theme.Transparent"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.appwidget.action.APPWIDGET_CONFIGURE"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.NotificationsWidgetSelectorActivity",
+            "android:theme": "@style/Theme.Transparent"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.appwidget.action.APPWIDGET_CONFIGURE"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "io.flutter.plugins.urllauncher.WebViewActivity",
+            "android:theme": "@android:style/Theme.NoTitleBar.Fullscreen"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "com.google.android.gms.common.api.GoogleApiActivity",
+            "android:theme": "@android:style/Theme.Translucent.NoTitleBar"
+          }
+        },
+        {
+          "_attributes": {
+            "android:clearTaskOnLaunch": "true",
+            "android:name": "com.journeyapps.barcodescanner.CaptureActivity",
+            "android:screenOrientation": "sensorLandscape",
+            "android:stateNotNeeded": "true",
+            "android:theme": "@style/zxing_CaptureTheme",
+            "android:windowSoftInputMode": "stateAlwaysHidden"
+          }
+        }
+      ],
+      "receiver": [
+        {
+          "_attributes": {
+            "android:enabled": "true",
+            "android:exported": "true",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.BackgroundListener"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "pl.edu.vulcan.vulcan_flutter.REFRESH"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:label": "Wiadomości",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.MessagesWidgetProvider"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.appwidget.action.APPWIDGET_UPDATE"
+              }
+            }
+          },
+          "meta-data": {
+            "_attributes": {
+              "android:name": "android.appwidget.provider",
+              "android:resource": "@xml/widget_messages_info"
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:label": "Plan lekcji",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.LessonPlanWidgetProvider"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.appwidget.action.APPWIDGET_UPDATE"
+              }
+            }
+          },
+          "meta-data": {
+            "_attributes": {
+              "android:name": "android.appwidget.provider",
+              "android:resource": "@xml/widget_plan_info"
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:label": "Powiadomienia",
+            "android:name": "pl.edu.vulcan.vulcan_flutter.widgets.NotificationsWidgetProvider"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.appwidget.action.APPWIDGET_UPDATE"
+              }
+            }
+          },
+          "meta-data": {
+            "_attributes": {
+              "android:name": "android.appwidget.provider",
+              "android:resource": "@xml/widget_notifications_info"
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver",
+            "android:permission": "com.google.android.c2dm.permission.SEND"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "com.google.android.c2dm.intent.RECEIVE"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+          },
+          "intent-filter": {
+            "action": [
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.BOOT_COMPLETED"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.MY_PACKAGE_REPLACED"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.QUICKBOOT_POWERON"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "com.htc.intent.action.QUICKBOOT_POWERON"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "true",
+            "android:name": "com.google.firebase.iid.FirebaseInstanceIdReceiver",
+            "android:permission": "com.google.android.c2dm.permission.SEND"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "com.google.android.c2dm.intent.RECEIVE"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:enabled": "true",
+            "android:exported": "false",
+            "android:name": "com.google.android.gms.measurement.AppMeasurementReceiver"
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "true",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "false",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+          },
+          "intent-filter": {
+            "action": [
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.ACTION_POWER_CONNECTED"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.ACTION_POWER_DISCONNECTED"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "false",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+          },
+          "intent-filter": {
+            "action": [
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.BATTERY_OKAY"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.BATTERY_LOW"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "false",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+          },
+          "intent-filter": {
+            "action": [
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.DEVICE_STORAGE_LOW"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.DEVICE_STORAGE_OK"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "false",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "android.net.conn.CONNECTIVITY_CHANGE"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "false",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.background.systemalarm.RescheduleReceiver"
+          },
+          "intent-filter": {
+            "action": [
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.BOOT_COMPLETED"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.TIME_SET"
+                }
+              },
+              {
+                "_attributes": {
+                  "android:name": "android.intent.action.TIMEZONE_CHANGED"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "@bool/enable_system_alarm_service_default",
+            "android:exported": "false",
+            "android:name": "androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "androidx.work.impl.background.systemalarm.UpdateProxies"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "true",
+            "android:exported": "true",
+            "android:name": "androidx.work.impl.diagnostics.DiagnosticsReceiver",
+            "android:permission": "android.permission.DUMP"
+          },
+          "intent-filter": {
+            "action": {
+              "_attributes": {
+                "android:name": "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+              }
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:exported": "false",
+            "android:name": "com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+          }
+        },
+        {
+          "_attributes": {
+            "android:directBootAware": "false",
+            "android:enabled": "true",
+            "android:exported": "true",
+            "android:name": "androidx.profileinstaller.ProfileInstallReceiver",
+            "android:permission": "android.permission.DUMP"
+          },
+          "intent-filter": [
+            {
+              "action": {
+                "_attributes": {
+                  "android:name": "androidx.profileinstaller.action.INSTALL_PROFILE"
+                }
+              }
+            },
+            {
+              "action": {
+                "_attributes": {
+                  "android:name": "androidx.profileinstaller.action.SKIP_FILE"
+                }
+              }
+            },
+            {
+              "action": {
+                "_attributes": {
+                  "android:name": "androidx.profileinstaller.action.SAVE_PROFILE"
+                }
+              }
+            },
+            {
+              "action": {
+                "_attributes": {
+                  "android:name": "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "provider": [
+        {
+          "_attributes": {
+            "android:authorities": "pl.edu.vulcan.hebe.flutterfirebasemessaginginitprovider",
+            "android:exported": "false",
+            "android:initOrder": "99",
+            "android:name": "io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+          }
+        },
+        {
+          "_attributes": {
+            "android:authorities": "pl.edu.vulcan.hebe.flutter.image_provider",
+            "android:exported": "false",
+            "android:grantUriPermissions": "true",
+            "android:name": "io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+          },
+          "meta-data": {
+            "_attributes": {
+              "android:name": "android.support.FILE_PROVIDER_PATHS",
+              "android:resource": "@xml/flutter_image_picker_file_paths"
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:authorities": "pl.edu.vulcan.hebe.file_provider",
+            "android:exported": "false",
+            "android:grantUriPermissions": "true",
+            "android:name": "com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+          },
+          "meta-data": {
+            "_attributes": {
+              "android:name": "android.support.FILE_PROVIDER_PATHS",
+              "android:resource": "@xml/shared_file_paths"
+            }
+          }
+        },
+        {
+          "_attributes": {
+            "android:authorities": "pl.edu.vulcan.hebe.firebaseinitprovider",
+            "android:directBootAware": "true",
+            "android:exported": "false",
+            "android:initOrder": "100",
+            "android:name": "com.google.firebase.provider.FirebaseInitProvider"
+          }
+        },
+        {
+          "_attributes": {
+            "android:authorities": "pl.edu.vulcan.hebe.androidx-startup",
+            "android:exported": "false",
+            "android:name": "androidx.startup.InitializationProvider"
+          },
+          "meta-data": [
+            {
+              "_attributes": {
+                "android:name": "androidx.work.WorkManagerInitializer",
+                "android:value": "androidx.startup"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "androidx.emoji2.text.EmojiCompatInitializer",
+                "android:value": "androidx.startup"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "androidx.lifecycle.ProcessLifecycleInitializer",
+                "android:value": "androidx.startup"
+              }
+            },
+            {
+              "_attributes": {
+                "android:name": "androidx.profileinstaller.ProfileInstallerInitializer",
+                "android:value": "androidx.startup"
+              }
+            }
+          ]
+        }
+      ],
+      "uses-library": [
+        {
+          "_attributes": {
+            "android:name": "androidx.window.extensions",
+            "android:required": "false"
+          }
+        },
+        {
+          "_attributes": {
+            "android:name": "androidx.window.sidecar",
+            "android:required": "false"
+          }
+        }
+      ]
+    }
+  }
+}
